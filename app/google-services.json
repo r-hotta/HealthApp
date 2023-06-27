@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "323984337205",
+    "firebase_url": "https://team2-1d264-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "team2-1d264",
+    "storage_bucket": "team2-1d264.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323984337205:android:b47aecaef53f19eccac47c",
+        "android_client_info": {
+          "package_name": "com.example.healthcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323984337205-7rghavaeut1tc1nf6pbefgh5d6csgota.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL70u1ejufnwhN3MOVlMjZDGNMAV_ymdo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323984337205-7rghavaeut1tc1nf6pbefgh5d6csgota.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323984337205:android:16e3f49698b3a2e4cac47c",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323984337205-7rghavaeut1tc1nf6pbefgh5d6csgota.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL70u1ejufnwhN3MOVlMjZDGNMAV_ymdo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323984337205-7rghavaeut1tc1nf6pbefgh5d6csgota.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
