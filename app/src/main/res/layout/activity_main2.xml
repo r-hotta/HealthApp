@@ -16,7 +16,7 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="132dp"
+        android:layout_width="150dp"
         android:layout_height="79dp"
         android:text="今すぐ予約"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -31,8 +31,7 @@
         android:layout_width="307dp"
         android:layout_height="125dp"
         android:gravity="center"
-        android:text="ボタンを押して初めてね"
-        android:textSize="40dp"
+        android:textSize="80dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
