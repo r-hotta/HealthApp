@@ -18,11 +18,11 @@ class MainActivity2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.activity_main2)
-        val textView5 = findViewById<TextView>(R.id.textView5)
+       val textView5 = findViewById<TextView>(R.id.textView5)
         textView5.text="hello2"
         val button = findViewById<Button>(R.id.button)
         button.setOnClickListener {
-            val intent = Intent(applicationContext,MainActivity::class.java)
+            val intent = Intent(applicationContext,MainActivity3::class.java)
             startActivity(intent)
         }
         val database = Firebase.database
