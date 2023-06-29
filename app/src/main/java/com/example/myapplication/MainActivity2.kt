@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
@@ -17,7 +18,7 @@ class MainActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setContentView(R.layout.activity_main2)
+        setContentView(R.layout.activity_image)
        val textView5 = findViewById<TextView>(R.id.textView5)
         textView5.text="hello2"
         val button = findViewById<Button>(R.id.button)
@@ -34,6 +35,16 @@ class MainActivity2 : AppCompatActivity() {
                 val value = snapshot.getValue<String>()
                 Log.d("Test", "受信した値: " + value)
                 textView5.text = value
+                val image=findViewById<ImageView>(R.id.imageViewMessege)
+                if(value!!.contains("看護師")){
+                    image.setImageResource(R.drawable.kanngosi)
+                }else if(value.contains("看護師")){
+                    image.setImageResource(R.drawable.kanngosi)
+                }else{
+                    image.setImageResource(R.drawable.sakura)
+
+                }
+
             }
 
             override fun onCancelled(error: DatabaseError) {
