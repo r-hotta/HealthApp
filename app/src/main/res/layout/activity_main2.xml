@@ -11,16 +11,16 @@
         android:layout_width="565dp"
         android:layout_height="862dp"
         app:srcCompat="@drawable/haikei2"
-        tools:layout_editor_absoluteX="-20dp"
+        tools:layout_editor_absoluteX="-19dp"
         tools:layout_editor_absoluteY="-66dp" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="170dp"
-        android:layout_height="71dp"
+        android:layout_width="266dp"
+        android:layout_height="67dp"
         android:layout_marginTop="220dp"
-        android:backgroundTint="#96DC99"
-        android:text="今すぐ予約"
+        android:backgroundTint="#79DABF"
+        android:text="予約状況を確認する"
         android:textColor="@color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
