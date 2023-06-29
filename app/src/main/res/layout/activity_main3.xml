@@ -6,26 +6,53 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity3">
 
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="565dp"
         android:layout_height="862dp"
         app:srcCompat="@drawable/haikei2"
-        tools:layout_editor_absoluteX="-77dp"
-        tools:layout_editor_absoluteY="-56dp" />
+        tools:layout_editor_absoluteX="-137dp"
+        tools:layout_editor_absoluteY="-83dp" />
 
     <TextView
         android:id="@+id/textView6"
+        android:layout_width="312dp"
+        android:layout_height="47dp"
+        android:gravity="center"
+        android:text="現在の予約状況です"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <Button
+        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="cursive"
-        android:text="病院からのメッセージ"
-        android:textSize="34sp"
+        android:backgroundTint="#79DABF"
+        android:text="今すぐ予約する"
+        android:textColor="@color/black"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.045" />
+        app:layout_constraintVertical_bias="0.96" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="379dp"
+        android:layout_height="552dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/excel4" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
