@@ -11,30 +11,51 @@
         android:layout_width="565dp"
         android:layout_height="862dp"
         app:srcCompat="@drawable/haikei2"
-        tools:layout_editor_absoluteX="-102dp"
-        tools:layout_editor_absoluteY="-92dp" />
+        tools:layout_editor_absoluteX="-20dp"
+        tools:layout_editor_absoluteY="-66dp" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="150dp"
-        android:layout_height="79dp"
+        android:layout_width="170dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="220dp"
+        android:backgroundTint="#96DC99"
         android:text="今すぐ予約"
+        android:textColor="@color/black"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.67" />
+        app:layout_constraintVertical_bias="0.568" />
+
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="307dp"
-        android:layout_height="125dp"
+        android:layout_width="359dp"
+        android:layout_height="148dp"
+        android:width="20dp"
+        android:background="@drawable/border"
         android:gravity="center"
-        android:textSize="80dp"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.264" />
+        app:layout_constraintVertical_bias="0.417" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="402dp"
+        android:layout_height="129dp"
+        android:gravity="center"
+        android:text="病院からのメッセージ"
+        android:textSize="38sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.119" />
 </androidx.constraintlayout.widget.ConstraintLayout>

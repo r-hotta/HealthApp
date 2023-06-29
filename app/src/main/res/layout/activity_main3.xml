@@ -11,8 +11,8 @@
         android:layout_width="565dp"
         android:layout_height="862dp"
         app:srcCompat="@drawable/haikei2"
-        tools:layout_editor_absoluteX="-102dp"
-        tools:layout_editor_absoluteY="-92dp" />
+        tools:layout_editor_absoluteX="-77dp"
+        tools:layout_editor_absoluteY="-56dp" />
 
     <TextView
         android:id="@+id/textView6"
@@ -25,24 +25,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.214" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="150dp"
-        android:layout_height="61dp"
-        android:layout_marginTop="220dp"
-        android:text="今すぐ予約"
-        android:textColorHighlight="#69CDC4"
-        android:textColorLink="#86CD89"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.157"
-        app:rippleColor="#86CD89" />
+        app:layout_constraintVertical_bias="0.045" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
