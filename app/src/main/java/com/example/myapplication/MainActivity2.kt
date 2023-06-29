@@ -36,16 +36,35 @@ class MainActivity2 : AppCompatActivity() {
                 Log.d("Test", "受信した値: " + value)
                 textView5.text = value
                 val image=findViewById<ImageView>(R.id.imageViewMessege)
-                if(value!!.contains("看護師")){
-                    image.setImageResource(R.drawable.kanngosi)
-                }else if(value.contains("看護師")){
-                    image.setImageResource(R.drawable.kanngosi)
+                if(value!!.contains("良好")){
+                    image.setImageResource(R.drawable.gennki)
+                }else if(value.contains("良好")){
+                    image.setImageResource(R.drawable.gennki)
                 }else{
-                    image.setImageResource(R.drawable.sakura)
+//                    image.setImageResource(R.drawable.sakura)
+
+                }
+                if(value!!.contains("再診")){
+                    image.setImageResource(R.drawable.isya)
+                }else if(value.contains("再診")){
+                    image.setImageResource(R.drawable.isya)
+                }else{
+//                    image.setImageResource(R.drawable.sakura)
+
+                }
+                if(value!!.contains("危険")){
+                    image.setImageResource(R.drawable.kikenn)
+                }else if(value.contains("危険")){
+                    image.setImageResource(R.drawable.kikenn)
+                }else{
+//                    image.setImageResource(R.drawable.sakura)
 
                 }
 
             }
+
+
+
 
             override fun onCancelled(error: DatabaseError) {
                 Log.w("Test", "受信エラー", error.toException())
